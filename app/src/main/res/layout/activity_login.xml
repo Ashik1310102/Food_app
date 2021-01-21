@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    tools:context="com.example.ashik.food.Login">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ak_logo"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#4f171920"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="2dp"
+            >
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Nmae"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"
+                android:textSize="25sp"
+                android:drawableLeft="@drawable/ic_action_name"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:drawableLeft="@drawable/ic_action_key"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/loginBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:background="@drawable/login_bt"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/regBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="registration"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "16532459805",
+    "firebase_url": "https://food-app-ec1e3.firebaseio.com",
+    "project_id": "food-app-ec1e3",
+    "storage_bucket": "food-app-ec1e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16532459805:android:d9145d1a9e6d406e",
+        "android_client_info": {
+          "package_name": "com.example.ashik.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16532459805-k4caq3kj237m5bl5677uosm55bqejlph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs7kynuBa7COdL2ogcxG8tUNxe_ZIZnxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
