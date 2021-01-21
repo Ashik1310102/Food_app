@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482794333114",
+    "firebase_url": "https://food-4b6a9.firebaseio.com",
+    "project_id": "food-4b6a9",
+    "storage_bucket": "food-4b6a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482794333114:android:05a37aecefebcea7",
+        "android_client_info": {
+          "package_name": "com.example.ashik.food_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482794333114-41nn08a7lc7gud0rp0jeolkufahd1bpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashik.food_order",
+            "certificate_hash": "4b7f38c002e42ef90bd00eaf04c72f7dd2abd2c0"
+          }
+        },
+        {
+          "client_id": "482794333114-p8koe2f9c5g6rjffinlpi4t61qes21jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZC-EZbmGxOuHFtWi9EwK6xzMgPIY18qI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482794333114-p8koe2f9c5g6rjffinlpi4t61qes21jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
